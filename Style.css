@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+#parent {
+    width: 100%;
+    height: 100%;
+
+
+    background-image: url("https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#childiv-zero {
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    margin-right: 200px;
+
+}
+
+
+
+
+
+
+#childiv-one {
+    height: 4vw;
+    width: 30vw;
+    display: flex;
+    margin-top: 2vw;
+    margin-left: 2vw;
+
+
+
+
+}
+
+#childiv-one h2 #orange {
+    color: orangered;
+
+}
+
+.navbar {
+
+    display: flex;
+
+    text-align: left;
+    margin-right: 60px;
+    font-weight: lighter;
+
+
+
+}
+
+
+
+#childiv-two {
+    height: 2vw;
+    width: 1vw;
+    display: flex;
+    margin-top: 2vw;
+}
+#call-phone{
+    display: flex;
+}
+#demo-zero{
+    height: 5.1vw;
+    width: 17vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:red;
+}
+
+
+
+
+
+
+
+#call {
+
+    height: 5vw;
+    width: 11vw;
+
+    font-weight: lighter;
+    display: flex;
+    margin-top: 0.1vw;
+    margin-left: 40vw;
+    background-color: rgb(102, 101, 101);
+    position: relative;
+    gap: 1vw;
+    padding: 1.5vw;
+
+}
+
+#call-icon {
+    color: orangered;
+}
+
+#phone-number {
+    /* height: 100vh;
+    width: 70vh;
+
+    margin-top: 2vw;
+    margin-left: 2vw;
+    display: flex; */
+    height: 1vh;
+    width: 17vw;
+    font-weight: lighter;
+    display: flex;
+    margin-right: 2vw;
+
+    margin-top: 3vw;
+    position: relative;
+
+
+
+    padding: 2.7vw;
+    margin: 1.5vw;
+
+
+
+
+
+
+
+    background-color: orangered;
+}
+#content-parent {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10vw;
+    gap: 3vw;
+
+
+}
+#contnt-bside-grey{
+    height: 30vw;
+    width: 30%;
+    /* background-color:yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin-top: 10vw;
+    color: black;
+    margin-left: 4vw;
+
+}
+#Below-content-besde{
+    height: 3vw;
+    width:50%;
+    border-radius: 10vw;
+    background-color:white;
+
+}
+#bold {
+    /* height: 3vw;
+    width: 16vw;
+    color: white;
+    margin-top: 16vw; */
+    
+
+
+}
+
+#light-words {
+    /* height: 3vw;
+    width: 16vw;
+    color: white;
+    margin-top: 5vw;
+    margin-right: 4vw; */
+
+}
+
+
+
+#Button {
+    /* height: 10vw;
+    width: 5vw;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    margin-top: 5vw;
+    margin-right: 5vw; */
+}
+
+#home {
+    color: orangered;
+}
+
+#grey-box {
+    /* height: 35vw;
+    width: 45vw;
+    background-color: rgb(52, 52, 54);
+    margin-top: 10vw;
+    margin-right: 88vw;
+    position: absolute;
+
+    left: 42vw; */
+    height:35vw ;
+    width: 34vw;
+    background-color:rgb(68, 68, 68);
+    display: flex;
+    flex-direction: column;
+    gap:2vw ;
+    justify-content:center;
+    align-items: center;
+}
+
+#white-1 {
+    /* height: 3vw;
+    width: 34vw;
+    background-color: white;
+    margin-left: 5vw;
+    margin-top: 8vw;
+    color: black;
+    font-weight: lighter; */
+    height:3vw;
+    width:80%;
+    background-color:white;
+    color: black;
+    display: flex;
+    align-items: center;
+padding-left: 2vw;
+}
+
+#white-2 {
+    /* height: 3vw;
+    width: 34vw;
+    background-color: white;
+    margin-left: 5vw;
+    margin-top: 4vw;
+
+    color: black;
+    font-weight: lighter; */
+    height:3vw;
+    width:80%;
+    background-color:white;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+
+}
+
+#white-3 {
+    /* height: 3vw;
+    width: 34vw;
+    background-color: white;
+    margin-left: 5vw;
+    margin-top: 4vw;
+    color: black;
+    font-weight: lighter; */
+    height:3vw;
+    width:80%;
+    background-color:white;
+    color: black;
+    padding-left: 2vw;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+#para-grey{
+    height: 3vw;
+    width: 80%;
+   
+}
+#grey-button{
+    height: 3vw;
+    width:40%;
+    margin-right: 13.9vw;
+    border-radius: 5vw;
+    background-color: orangered;
+    color: white;
+    outline: none;
+}
+
